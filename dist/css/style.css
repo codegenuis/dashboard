@@ -1,0 +1,130 @@
+p {
+  margin-bottom: 0; }
+
+@font-face {
+  font-family: ProximaNovaSoft-Regular;
+  src: url("../fonts/ProximaNovaSoft-Regular.otf"); }
+
+@font-face {
+  font-family: ProximaNovaSoft-Bold;
+  src: url("../fonts/ProximaNovaSoft-Bold.otf"); }
+
+@font-face {
+  font-family: ProximaNovaSoft-SemiBold;
+  src: url("../fonts/ProximaNovaSoft-SemiBold.otf"); }
+
+@font-face {
+  font-family: ProximaNovaSoft-Medium;
+  src: url("../fonts/ProximaNovaSoft-Medium.otf"); }
+
+.dashboard-wrapper {
+  background: #B570EB;
+  font-family: 'ProximaNovaSoft-Regular'; }
+  .dashboard-wrapper .top-section {
+    color: #fff; }
+    .dashboard-wrapper .top-section .header {
+      background: rgba(0, 0, 0, 0.5);
+      height: 56px; }
+      .dashboard-wrapper .top-section .header h2 {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0;
+        padding: 14px; }
+    .dashboard-wrapper .top-section .details-text {
+      padding: 1.5em; }
+    .dashboard-wrapper .top-section .details p {
+      font-family: 'ProximaNovaSoft-Regular';
+      font-size: 18px; }
+    .dashboard-wrapper .top-section .details h1 {
+      font-family: 'ProximaNovaSoft-SemiBold';
+      font-size: 32px; }
+    .dashboard-wrapper .top-section .details h4 {
+      font-family: 'ProximaNovaSoft-SemiBold';
+      font-size: 24px; }
+  .dashboard-wrapper .details-header {
+    background: rgba(0, 0, 0, 0.5);
+    height: 42px;
+    padding: 7px; }
+    .dashboard-wrapper .details-header p {
+      font-family: 'ProximaNovaSoft-SemiBold';
+      font-size: 14px; }
+  .dashboard-wrapper .details-body {
+    background: #fff; }
+    .dashboard-wrapper .details-body .alternate {
+      background: #F1F1F1;
+      height: 65px;
+      padding: 7px; }
+    .dashboard-wrapper .details-body .white {
+      height: 65px;
+      padding: 7px; }
+    .dashboard-wrapper .details-body h5 {
+      color: #959595;
+      font-size: 16px;
+      font-family: 'ProximaNovaSoft-SemiBold'; }
+    .dashboard-wrapper .details-body .muted {
+      color: #959595; }
+    .dashboard-wrapper .details-body .muted-text {
+      font-size: 14px;
+      color: rgba(149, 149, 149, 0.6);
+      font-family: 'ProximaNovaSoft-Medium'; }
+    .dashboard-wrapper .details-body .positive {
+      color: #16967A;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'ProximaNovaSoft-SemiBold'; }
+    .dashboard-wrapper .details-body .negative {
+      font-size: 16px;
+      color: #E44235;
+      font-weight: 700;
+      font-family: 'ProximaNovaSoft-SemiBold'; }
+  .dashboard-wrapper .side-bar {
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: 0.3s;
+    overflow-x: hidden; }
+    .dashboard-wrapper .side-bar .sidebar-header {
+      background-image: url("../images/menu-header-bg.png");
+      background-size: cover;
+      height: 153px; }
+      .dashboard-wrapper .side-bar .sidebar-header .close {
+        position: absolute;
+        right: 5%;
+        top: 0;
+        color: #fff;
+        font-size: 25px; }
+      .dashboard-wrapper .side-bar .sidebar-header .info {
+        padding-top: 85px;
+        padding-left: 15px; }
+        .dashboard-wrapper .side-bar .sidebar-header .info img {
+          max-width: 50px; }
+        .dashboard-wrapper .side-bar .sidebar-header .info p {
+          display: inline-block;
+          font-size: 18px; }
+    .dashboard-wrapper .side-bar .body {
+      height: 568px;
+      padding: 20px 0px; }
+      .dashboard-wrapper .side-bar .body ul {
+        padding: 10px 0;
+        list-style: none; }
+      .dashboard-wrapper .side-bar .body li {
+        height: 55px;
+        padding: 10px; }
+        .dashboard-wrapper .side-bar .body li:hover {
+          background: #F7F0FC; }
+      .dashboard-wrapper .side-bar .body a {
+        text-decoration: none;
+        color: #8952BA;
+        font-size: 16px; }
+      .dashboard-wrapper .side-bar .body img {
+        max-width: 30px;
+        margin-right: 10px; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #fff !important; }
+
+.owl-theme .owl-dots .owl-dot span {
+  background: rgba(255, 255, 255, 0.5) !important; }

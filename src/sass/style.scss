@@ -1,0 +1,166 @@
+$primary: #B570EB;
+$alternate: #F1F1F1;
+$filter: rgba(0,0,0,0.5);
+p{
+  margin-bottom: 0
+}
+@font-face{
+  font-family: ProximaNovaSoft-Regular;
+  src: url("../fonts/ProximaNovaSoft-Regular.otf");
+}
+@font-face{
+  font-family: ProximaNovaSoft-Bold;
+  src: url("../fonts/ProximaNovaSoft-Bold.otf");
+}
+@font-face{
+  font-family: ProximaNovaSoft-SemiBold;
+  src: url("../fonts/ProximaNovaSoft-SemiBold.otf");
+}
+@font-face{
+  font-family: ProximaNovaSoft-Medium;
+  src: url("../fonts/ProximaNovaSoft-Medium.otf");
+}
+
+.dashboard-wrapper{
+  background: $primary;
+  font-family: 'ProximaNovaSoft-Regular';
+ .top-section{
+  color: #fff;
+  & .header{
+    background: $filter ;
+    height: 56px;
+    & h2 {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 0;
+      padding: 14px;
+    }
+  }
+    & .details-text{
+      padding: 1.5em
+    }
+    & .details{
+    & p{
+      font-family: 'ProximaNovaSoft-Regular';
+      font-size: 18px;
+    }
+    & h1 {
+      font-family: 'ProximaNovaSoft-SemiBold';
+      font-size: 32px;
+    }
+    & h4 {
+      font-family: 'ProximaNovaSoft-SemiBold';
+      font-size: 24px;
+    }
+  }
+}
+  & .details-header{
+    background: $filter;
+    height: 42px;
+    padding: 7px;
+    & p {
+      font-family: 'ProximaNovaSoft-SemiBold';
+      font-size: 14px;
+    }
+  }
+  & .details-body {
+    background: #fff;
+    & .alternate {
+      background: $alternate;
+      height: 65px;
+      padding: 7px;
+    }
+    & .white {
+      height: 65px;
+      padding: 7px;
+    }
+    & h5 {
+      color: #959595;
+      font-size: 16px;
+      font-family: 'ProximaNovaSoft-SemiBold'
+    }
+    & .muted {
+      color: #959595
+    }
+    & .muted-text{
+      font-size: 14px;
+      color: rgba(149,149,149,0.6);
+      font-family: 'ProximaNovaSoft-Medium'
+    }
+    & .positive {
+      color: #16967A;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: 'ProximaNovaSoft-SemiBold'
+    }
+    .negative{
+      font-size: 16px;
+      color: #E44235;
+      font-weight: 700;
+      font-family: 'ProximaNovaSoft-SemiBold'
+    }
+  }
+  .side-bar{
+    width:0;
+    position:fixed;
+    z-index: 2;
+    top:0;
+    left:0;
+    background: #fff;
+    transition: 0.3s;
+    overflow-x: hidden;
+  & .sidebar-header {
+    background-image: url('../images/menu-header-bg.png');
+    background-size: cover;
+    height: 153px;
+    & .close {
+      position: absolute;
+      right: 5%;
+      top: 0;
+      color: #fff;
+      font-size: 25px;
+    }
+    & .info{
+      padding-top: 85px;
+      padding-left: 15px;
+      & img {
+        max-width: 50px;
+      }
+      & p {
+        display: inline-block;
+        font-size: 18px
+      }
+    }
+  }
+  & .body {
+    height: 568px;
+    padding: 20px 0px;
+    & ul {
+      padding: 10px 0;
+      list-style: none;
+    }
+    & li {
+      height: 55px;
+      padding: 10px;
+      & :hover{
+        background: #F7F0FC;
+      }
+    }
+    & a {
+      text-decoration: none;
+      color: #8952BA;
+      font-size: 16px;
+    }
+    & img {
+      max-width: 30px;
+      margin-right: 10px;
+    }
+  }
+  }
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: #fff !important;
+}
+.owl-theme .owl-dots .owl-dot span{
+  background: rgba(255,255,255,0.5) !important;
+}

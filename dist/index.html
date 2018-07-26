@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+<body>
+  <div class="dashboard-wrapper">
+    <div class="side-bar" id="side-menu">
+      <div class="sidebar-header">
+      <div class="info">
+        <a href="#" onclick="closeSideMenu()" class="close">x</a>
+        <img src="images/avatar.png">
+          <p class="text-white"> John Doe </p>
+      </div>
+      </div>
+      <div class="body">
+        <ul>
+          <a href="#"><li><img src="images/ic-dashboard.svg">Dashboard</li></a>
+          <a href="#"><li><img src="images/ic-accounts.svg">Accounts</li></a>
+          <a href="#"><li><img src="images/ic-cards.svg">Cards</li></a>
+          <a href="#"><li><img src="images/ic-payments.svg">Payments</li></a>
+          <a href="#"><li><img src="images/ic-transfers.svg">Transfers</li></a>
+          <a href="#"><li><img src="images/ic-airtime.svg">Airtime</li></a>
+          <a href="#"><li><img src="images/ic-settings.svg">Settings</li></a>
+        </ul>
+      </div>
+    </div>
+    <div id="main">
+    <section class="top-section container-fluid">
+    <div class="header row">
+      <div class="col-1" style="padding-top:5px">
+      <a href="#" onClick="openSideMenu()"><img src="images/icon.png"/></a>
+      </div>
+      <div class="col-10">
+      <h2 class="text-center">Dashboard</h2>
+      </div>
+    </div>
+    <div class="owl-carousel owl-theme details-text">
+          <div class="item">
+              <div class="details text-center">
+                  <p> Balance </p>
+                  <h1> N 978263.45</h1>
+                  <h4>16.500 SP</h4>
+                </div>
+            </div>
+            <div class="item">
+                <div class="details text-center">
+                    <p> Balance </p>
+                    <h1> N 978263.45</h1>
+                    <h4>16.500 SP</h4>
+                  </div>
+              </div>
+        </div>
+      </section>
+      <section class="transaction-details">
+        <div class="details-header text-white">
+            <div class="container-fluid">
+          <p>Lastest Transactions</p>
+        </div>
+        </div>
+        <div class="details-body">
+          <div class="container-fluid">
+          <div class="row white">
+            <div class="col-6">
+              <h5> ATM Lagos </h5>
+              <p class="muted-text"> Today </p>
+            </div>
+            <div class="col-6 text-right">
+              <p class="negative"> - N450.00 </p>
+              <p class="muted"> Bank Withdrawal </p>
+            </div>
+          </div>
+          <div class="row alternate">
+              <div class="col-6">
+                <h5> ATM Lagos </h5>
+                <p class="muted-text"> Yesterday </p>
+              </div>
+              <div class="col-6 text-right">
+                <p class="positive"> + N450.00 </p>
+                <p class="muted"> Bank Withdrawal </p>
+              </div>
+            </div>
+            <div class="row white">
+                <div class="col-6">
+                  <h5>003 645 6548 65</h5>
+                  <p class="muted-text">01/06/2015</p>
+                </div>
+                <div class="col-6 text-right">
+                  <p class="negative"> - N100 SP </p>
+                  <p class="muted"> Airtime Recharge </p>
+                </div>
+              </div>
+              <div class="row alternate">
+                  <div class="col-6">
+                    <h5> John Doe </h5>
+                    <p class="muted-text"> 31/05/2015 </p>
+                  </div>
+                  <div class="col-6 text-right">
+                    <p class="positive"> + N450.00 </p>
+                    <p class="muted"> Transfer </p>
+                  </div>
+                </div>
+                </div>
+        </div>
+      </section>
+      </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</html>
